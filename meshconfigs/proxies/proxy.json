@@ -1,0 +1,12 @@
+{
+  "zone_key": "zone-default-zone",
+  "proxy_key": "fibonacci-proxy",
+  "domain_keys": [
+    "fibonacci-domain"
+  ],
+  "listener_keys": [
+    "fibonacci-listener"
+  ],
+  "name": "fibonacci",
+  "listeners": null
+}

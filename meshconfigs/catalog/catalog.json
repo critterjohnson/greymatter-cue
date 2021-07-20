@@ -1,0 +1,18 @@
+{
+  "zone_key": "zone-default-zone",
+  "cluster_key": "edge-to-fibonacci-cluster",
+  "name": "fibonacci",
+  "instances": [],
+  "require_tls": true,
+  "secret": {
+    "secret_key": "edge.identity",
+    "secret_name": "spiffe://quickstart.greymatter.io/edge",
+    "secret_validation_name": "spiffe://quickstart.greymatter.io",
+    "subject_names": [
+      "spiffe://quickstart.greymatter.io/fibonacci"
+    ],
+    "ecdh_curves": [
+      "X25519:P-256:P-521:P-384"
+    ]
+  }
+}
